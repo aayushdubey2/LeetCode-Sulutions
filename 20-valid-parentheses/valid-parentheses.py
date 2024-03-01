@@ -1,3 +1,5 @@
+# keep pushing opening braces, once you encounter any closing brace
+# check if the last brace is corresponding opening brace or not, if not return
 class Solution:
     def isValid(self, s: str) -> bool:
         if len(s)==1:
