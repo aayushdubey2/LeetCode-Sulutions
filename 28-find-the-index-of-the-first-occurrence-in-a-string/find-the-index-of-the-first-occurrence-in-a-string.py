@@ -1,3 +1,4 @@
+#Intution is to create a sliding window of length equal to the needle
 class Solution:
     def strStr(self, haystack: str, needle: str) -> int:
         if needle == haystack:
