@@ -1,3 +1,10 @@
+# if you encounter 9 convert it to 0,
+# suppose there are 9s in series convert all of them to 0
+# in this case you will never land in else block
+# hence add 1 in beggining and return
+# if after the series on 9s there is some onter number just increment it and return
+
+
 class Solution:
     def plusOne(self, digits: List[int]) -> List[int]:
 
